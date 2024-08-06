@@ -11,5 +11,44 @@ header {
     font-size: 32px;
     color: rbg(42, 122, 228); 
 }
+.chamada {
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5x;
+}
+
+p {
+    font-size: 20px;
+}
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categeria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3pv solid green;
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
+}
   
     
